@@ -1,0 +1,22 @@
+ .dazzling{
+                font-weight: 600;
+                font-size: 28px;
+                font-family: "黑体";
+                color: #8c888b;
+                background: 
+                -webkit-linear-gradient(45deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5);
+                -moz-linear-gradient(45deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5);
+                -ms-linear-gradient(45deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5);
+                color: transparent;
+                -webkit-background-clip: text;
+                animation: ran 10s linear infinite;
+            }
+
+            @keyframes ran {
+                from {
+                    backgroud-position: 0 0;
+                }
+                to {
+                    background-position: 2000px 0;
+                }
+            }
